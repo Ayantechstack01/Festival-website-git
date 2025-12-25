@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Festival Categories</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #FFF6E5;
+            /* soft cream */
+        }
+
+        .navbar-custom {
+            background-color: #ff7a00;
+            /* orange */
+        }
+
+        .category-card {
+            transition: all 0.3s ease;
+            border: none;
+            border-radius: 12px;
+        }
+
+        .category-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .category-icon {
+            font-size: 40px;
+            color: #ff7a00;
+        }
+
+        footer {
+            background-color: #6a1b9a;
+            /* purple */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #FF6F00;">
+            <div class="container">
+                <a class="navbar-brand" href="#">Festivals.com</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="books.html" target="_blank">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Heading -->
+    <div class="container text-center mt-5">
+        <h1 class="fw-bold">Festival Categories</h1>
+        <p class="text-muted">Explore books, culture, art, and entertainment</p>
+    </div>
+
+    <!-- Categories -->
+    <div class="container mb-5">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card category-card text-center p-4">
+                    <i class="fas fa-book category-icon mb-3 text-warning"></i>
+                    <h4>Books & Literature</h4>
+                    <p>Explore novels, educational books, and cultural stories.</p>
+                    <a href="#" class="btn text-white" style="background-color: #FF6F00;">View More</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card category-card text-center p-4">
+                    <i class="fas fa-palette category-icon mb-3 text-warning"></i>
+                    <h4>Art & Creativity</h4>
+                    <p>Paintings, handicrafts, and creative exhibitions.</p>
+                    <a href="#" class="btn text-white" style="background-color: #FF6F00;">View More</a>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card category-card text-center p-4">
+                    <i class="fas fa-music category-icon mb-3 text-warning"></i>
+                    <h4>Music & Shows</h4>
+                    <p>Live music, poetry sessions, and performances.</p>
+                    <a href="#" class="btn text-white" style="background-color: #FF6F00;">View More</a>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card category-card text-center p-4">
+                    <i class="fas fa-utensils category-icon mb-3 text-warning"></i>
+                    <h4>Food & Culture</h4>
+                    <p>Traditional food stalls and local cuisines.</p>
+                    <a href="#" class="btn text-white" style="background-color: #FF6F00;">View More</a>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card category-card text-center p-4">
+                    <i class="fas fa-graduation-cap category-icon mb-3 text-warning"></i>
+                    <h4>Workshops</h4>
+                    <p>Educational sessions and learning activities.</p> <a href="#" class="btn text-white"
+                        style="background-color: #FF6F00;">View More</a>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card category-card text-center p-4">
+                    <i class="fas fa-child category-icon mb-3 text-warning"></i>
+                    <h4>Kids Zone</h4>
+                    <p>Fun games, stories, and creative learning.</p>
+                    <a href="#" class="btn text-white" style="background-color: #FF6F00;">View More</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-white pt-4 pb-4 mt-5" style="background-color: #6A1B9A;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 mb-3">
+                    <h5>About Us</h5>
+                    <p>
+                        We provide the best services directory for your city.
+                        Find trusted professionals near you.
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-3 ftr">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Categories</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Gallery</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Books</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Feedback</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>Contact</h5>
+                    <p class="mb-1"> +92 300 1234567</p>
+                    <p class="mb-1"> info@yourwebsite.com</p>
+                    <p> Your City, Pakistan</p>
+                </div>
+            </div>
+            <hr class="border-light">
+            <div class="text-center">
+                © 2025 YourWebsite | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
