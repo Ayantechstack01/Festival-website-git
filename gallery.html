@@ -13,24 +13,29 @@
     <style>
         body {
             padding-top: 80px;
-            /* Navbar height ke hisaab se adjust karo */
+            background-color: #FCF5EE;
         }
-        .navbar li a {
-            color: #fff;
-            background-color: #FF6F00;
+
+        .nav-link {
+            color: #850E35;
         }
-        /* .card:hover{
+
+        .card:hover {
             transform: scale(1.03);
-            transition: 0.3s;
-        } */
+            transition: 0.3s ease-in-out;
+        }
+
+        .ftr li a {
+            color: #850E35;
+        }
     </style>
 </head>
 
-<body style="background-color: #FFF8E1;">
+<body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark p-4 fixed-top" style="background-color: #FF6F00;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #FFC4C4;">
             <div class="container">
-                <a class="navbar-brand" href="#">Festivals.com</a>
+                <a class="navbar-brand" href="#" style="color: #850E35;">Festivals.com</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +54,7 @@
                             <a class="nav-link" href="#">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="books.html" target="_blank">Books</a>
+                            <a class="nav-link" href="books.html">Books</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
@@ -82,7 +87,8 @@
                 <!-- Card 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card shadow-sm text-center">
-                        <img src="./images/Happy Eid-ul-Fitr 2019_ Eid Mubarak wishes….jpg" class="card-img-top" alt="Eid">
+                        <img src="./images/Happy Eid-ul-Fitr 2019_ Eid Mubarak wishes….jpg" class="card-img-top"
+                            alt="Eid">
                         <div class="card-body bg-white">
                             <h5 class="card-title" style="color: #6A1B9A;">Eid-ul-Fitr</h5>
                         </div>
@@ -133,7 +139,7 @@
         </div>
 
     </section>
-    <footer class="text-white pt-4 pb-4 mt-5" style="background-color: #6A1B9A;">
+    <footer class="pt-4 pb-4 mt-5" style="background-color: #FFC4C4; color: #850E35;">
         <div class="container">
             <div class="row">
 
@@ -148,13 +154,13 @@
                 <div class="col-md-4 mb-3 ftr">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Categories</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Gallery</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Books</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Feedback</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                        <li><a href="#" class="text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-decoration-none">Categories</a></li>
+                        <li><a href="#" class="text-decoration-none">Gallery</a></li>
+                        <li><a href="#" class="text-decoration-none">Books</a></li>
+                        <li><a href="#" class="text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-decoration-none">Feedback</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -171,16 +177,8 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script>
-        // $(document).ready(function () {
-        //     $('.contact-btn').click(function () {
-        //         let msg = $(this).data('message');  // Jo message data attribute me hai, usko pick karo
-        //         alert(msg);
-        //     });
-        // });
-    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> -->
 </body>
 
 </html>
