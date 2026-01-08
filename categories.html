@@ -21,10 +21,39 @@
             color: #850E35;
         }
 
+        body {
+            padding-top: 80px;
+            background-color: #FCF5EE;
+        }
+
+        .nav-link {
+            color: #FCF5EE;
+        }
+
+        .nav-link:hover {
+            color: #FFC4C4;
+        }
+
+        .ftr li a {
+            color: #FCF5EE;
+        }
+
+
+
         .category-card {
             transition: all 0.3s ease;
             border: none;
             border-radius: 12px;
+        }
+
+        .custom-btn {
+            background-color: #ee6983;
+            color: #FFFFFF;
+        }
+
+        .custom-btn:hover {
+            background-color: #850E35;
+            color: #FFFFFF;
         }
 
         .category-card:hover {
@@ -51,43 +80,31 @@
             <div class="container">
                 <a class="navbar-brand" href="#" style="color: #850E35;">Festivals.com</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Categories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Books</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Feedback</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #850E35;">
+                    <div class="container">
+                        <a class="navbar-brand" href="#" style="color: #FCF5EE;">Festivals.com</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+                                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="feedback-form.html">Feedback</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
     </header>
-
     <!-- Page Heading -->
     <div class="container text-center mt-5">
-        <h1 class="fw-bold">Festival Categories</h1>
+        <h1 class="fw-bold" style="color: #850E35;">Festival Categories</h1>
         <p class="text-muted">Explore books, culture, art, and entertainment</p>
     </div>
 
@@ -101,6 +118,7 @@
                     <h4>Books & Literature</h4>
                     <p>Explore novels, educational books, and cultural stories.</p>
                     <a href="#" class="btn text-white" style="background-color: #EE6983;">View More</a>
+                    <a href="#" class="btn custom-btn" onclick="alert('Thank you for your interest!')">View More</a>
                 </div>
             </div>
 
@@ -190,13 +208,13 @@
                     <p> Your City, Pakistan</p>
                 </div>
             </div>
-            <hr class="border-light">
+            <hr class="" style="border-color: #FCF5EE;">
             <div class="text-center">
                 © 2025 YourWebsite | All Rights Reserved
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
