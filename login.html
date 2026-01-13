@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Festival - Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #FCF5EE;
+        }
+
+        .nav-link {
+            color: #FCF5EE;
+        }
+
+        .nav-link:hover {
+            color: #FFC4C4;
+        }
+
+        .ftr li a {
+            color: #FCF5EE;
+        }
+
+        .custom-btn {
+            background-color: #ee6983;
+            color: #FFFFFF;
+        }
+
+        .custom-btn:hover {
+            background-color: #850E35;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #850E35;">
+            <div class="container">
+                <img src="./images/logo-light-transparent.png" alt="logo" width="250px" height="100%">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="categories.html">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="books.html">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback-form.html">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid d-flex justify-content-center align-items-center" style="min-height:100vh;">
+
+        <div class="card shadow p-4" style="width: 500px; border-radius: 16px;">
+
+            <h3 class="text-center mb-4 fw-bold" style="color: #850E35;">Login</h3>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control">
+            </div>
+
+            <button class="btn custom-btn w-100 py-2">Login</button>
+
+            <p class="text-center mt-3 mb-0">
+                Don’t have an account?
+                <a href="signup.html">Sign Up</a>
+            </p>
+
+        </div>
+
+    </div>
+    <footer class="pt-4 pb-4 mt-5" style="background-color: #850E35; color: #FCF5EE;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 mb-3">
+                    <h5>About Us</h5>
+                    <p>
+                        We provide the best services directory for your city.
+                        Find trusted professionals near you.
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-3 ftr">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-decoration-none">Categories</a></li>
+                        <li><a href="#" class="text-decoration-none">Gallery</a></li>
+                        <li><a href="#" class="text-decoration-none">Books</a></li>
+                        <li><a href="#" class="text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-decoration-none">Feedback</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>Contact</h5>
+                    <p class="mb-1"> +92 300 1234567</p>
+                    <p class="mb-1"> info@yourwebsite.com</p>
+                    <p> Your City, Pakistan</p>
+                </div>
+            </div>
+            <hr class="" style="border-color: #FCF5EE;">
+            <div class="text-center">
+                © 2025 YourWebsite | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
